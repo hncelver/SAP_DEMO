@@ -2,7 +2,7 @@
 
 specVersion: "3.1"
 metadata:
-  name: namespace1.myfioriapp
+  name: space.myfioriapp
 type: application
 server:
   customMiddleware:
@@ -27,5 +27,5 @@ server:
     - name: fiori-tools-preview
       afterMiddleware: fiori-tools-appreload
       configuration:
-        component: namespace1.myfioriapp
+        component: space.myfioriapp
         ui5Theme: sap_fiori_3

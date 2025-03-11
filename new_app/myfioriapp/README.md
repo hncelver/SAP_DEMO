@@ -1,7 +1,7 @@
 ## Application Details
 |               |
 | ------------- |
-|**Generation Date and Time**<br>Tue Mar 11 2025 15:07:50 GMT+0000 (Coordinated Universal Time)|
+|**Generation Date and Time**<br>Tue Mar 11 2025 15:37:08 GMT+0000 (Coordinated Universal Time)|
 |**App Generator**<br>@sap/generator-fiori-elements|
 |**App Generator Version**<br>1.16.5|
 |**Generation Platform**<br>SAP Business Application Studio|
@@ -10,7 +10,7 @@
 |**Service URL**<br>https://sapes5.sapdevcenter.com/sap/opu/odata/sap/SEPMRA_PROD_MAN/|
 |**Module Name**<br>myfioriapp|
 |**Application Title**<br>Manage Products|
-|**Namespace**<br>namespace1|
+|**Namespace**<br>space|
 |**UI5 Theme**<br>sap_fiori_3|
 |**UI5 Version**<br>1.84.14|
 |**Enable Code Assist Libraries**<br>False|

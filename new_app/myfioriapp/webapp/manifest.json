@@ -1,7 +1,7 @@
 {
   "_version": "1.28.0",
   "sap.app": {
-    "id": "namespace1.myfioriapp",
+    "id": "space.myfioriapp",
     "type": "application",
     "i18n": "i18n/i18n.properties",
     "applicationVersion": {
@@ -13,7 +13,7 @@
     "sourceTemplate": {
       "id": "@sap/generator-fiori:lrop",
       "version": "1.16.5",
-      "toolsId": "8b316f9b-e6fe-43b7-a692-b5ed5d4e8e1a"
+      "toolsId": "67d5b9ec-8d7c-441d-be28-5360c5a55fac"
     },
     "dataSources": {
       "SEPMRA_PROD_MAN_ANNO_MDL": {
@@ -40,6 +40,20 @@
           ],
           "localUri": "localService/mainService/metadata.xml",
           "odataVersion": "2.0"
+        }
+      }
+    },
+    "crossNavigation": {
+      "inbounds": {
+        "Object-display": {
+          "semanticObject": "Object",
+          "action": "display",
+          "title": "{{Object-display.flpTitle}}",
+          "subTitle": "{{Object-display.flpSubtitle}}",
+          "signature": {
+            "parameters": {},
+            "additionalParameters": "allowed"
+          }
         }
       }
     }
@@ -82,7 +96,7 @@
       "i18n": {
         "type": "sap.ui.model.resource.ResourceModel",
         "settings": {
-          "bundleName": "namespace1.myfioriapp.i18n.i18n"
+          "bundleName": "space.myfioriapp.i18n.i18n"
         }
       },
       "": {
@@ -154,5 +168,9 @@
   "sap.fiori": {
     "registrationIds": [],
     "archeType": "transactional"
+  },
+  "sap.cloud": {
+    "public": true,
+    "service": "spacemyfioriapp"
   }
 }
